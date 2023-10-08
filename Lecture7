@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int password;
+    cout<<"Enter the password: "<<endl;
+    cin>>password;
+    while(password<999999)
+    {
+        cout<<"The password does not meet the required conditions";
+        cin>>password;
+    }
+    return 0;
+}
+int main()
+{
+    int password;
+    cout<<"Enter the password: "<<endl;
+    cin>>password;
+    do
+    {
+        cout<<"The password does not meet the required conditions";
+        cin>>password;
+    }
+    while(password<999999)
+    return 0;
+}
+int main()
+{
+    int password;
+    while(1)
+    cout<<"chocolates";
+}
